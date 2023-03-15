@@ -1,0 +1,24 @@
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.box {
+  display: flex;
+}
+.left-box {
+  width: 500px;
+  margin: 40px 0 0 100px;
+}
+.right-box h2 {
+  width: 500px;
+  margin: 100px 0 0 90px;
+  text-align: end;
+  font-size: 43px;
+  color: red;
+  padding: 10px;
+}
+.right-box h2:hover {
+  font-size: 45px;
+  transition: 0.3s;
+}
